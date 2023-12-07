@@ -1,4 +1,4 @@
-from errors import ContactExistsError, ContactNotFoundError, \
+from .errors import ContactExistsError, ContactNotFoundError, \
     IncorrectArgumentsQuantityError, ContactsAreEmptyError, PhoneValidationError, BirthdayValidationError
 
 
