@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from constants import BIRTHDAYS_DATE_FORMAT
-from errors import PhoneValidationError, BirthdayValidationError
+from src.utils.constants import BIRTHDAYS_DATE_FORMAT
+from src.exceptions.errors import PhoneValidationError, BirthdayValidationError
 
 
 class Field:

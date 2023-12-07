@@ -1,8 +1,8 @@
-from file_service import write_contacts_to_file, read_contacts_from_file
-from helpers import parse_input
-from commands import add_contact, change_contact, get_phone, get_all_contacts, add_birthday, show_birthday, \
+from src.services.file_service import write_contacts_to_file, read_contacts_from_file
+from src.utils.helpers import parse_input
+from src.controllers.commands import add_contact, change_contact, get_phone, get_all_contacts, add_birthday, show_birthday, \
     get_birthdays_per_week
-from address_book import AddressBook
+from src.models.address_book import AddressBook
 
 
 def main():

@@ -1,11 +1,11 @@
 from datetime import datetime, date
 from collections import defaultdict
 
-from address_book import AddressBook
-from constants import WEEKDAYS, BIRTHDAYS_DATE_FORMAT
-from error_handler import error_handler
-from errors import ContactNotFoundError, IncorrectArgumentsQuantityError, ContactsAreEmptyError
-from record import Record
+from src.models.address_book import AddressBook
+from src.utils.constants import WEEKDAYS, BIRTHDAYS_DATE_FORMAT
+from src.exceptions.error_handler import error_handler
+from src.exceptions.errors import ContactNotFoundError, IncorrectArgumentsQuantityError, ContactsAreEmptyError
+from src.models.record import Record
 
 
 @error_handler
